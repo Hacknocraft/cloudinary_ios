@@ -29,6 +29,16 @@
 		72A8B29018B88694008BAEF7 /* docx.docx in Resources */ = {isa = PBXBuildFile; fileRef = 72A8B28F18B88694008BAEF7 /* docx.docx */; };
 		72EFFE0E17250CA600005AC9 /* NSDictionary+CLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0B17250CA600005AC9 /* NSDictionary+CLUtilities.m */; };
 		72EFFE0F17250CA600005AC9 /* NSString+CLURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0D17250CA600005AC9 /* NSString+CLURLEncoding.m */; };
+		AFEDE9551EAB42EC008F0DDC /* Cloudinary_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEDE94C1EAB42EC008F0DDC /* Cloudinary_iOS.framework */; };
+		AFEDE95A1EAB42EC008F0DDC /* Cloudinary_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEDE9591EAB42EC008F0DDC /* Cloudinary_iOSTests.m */; };
+		AFEDE95C1EAB42EC008F0DDC /* Cloudinary_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEDE94E1EAB42EC008F0DDC /* Cloudinary_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEDE9641EAB4384008F0DDC /* NSDictionary+CLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0B17250CA600005AC9 /* NSDictionary+CLUtilities.m */; };
+		AFEDE9651EAB4384008F0DDC /* NSString+CLURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0D17250CA600005AC9 /* NSString+CLURLEncoding.m */; };
+		AFEDE9661EAB4384008F0DDC /* CLCloudinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C80C1163885C7003FB3FB /* CLCloudinary.m */; };
+		AFEDE9671EAB4384008F0DDC /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E57CF1BB555B700F7FDD1 /* CLLayer.m */; };
+		AFEDE9681EAB4384008F0DDC /* CLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C80EA16394BAA003FB3FB /* CLTransformation.m */; };
+		AFEDE9691EAB4384008F0DDC /* CLUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C8104163A9118003FB3FB /* CLUploader.m */; };
+		AFEDE96A1EAB4384008F0DDC /* CLEagerTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C8107163AB193003FB3FB /* CLEagerTransformation.m */; };
 		D6611FB91BE2DC080096623E /* CLLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 721E57CE1BB555B700F7FDD1 /* CLLayer.h */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +49,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 723C80B6163885C7003FB3FB;
 			remoteInfo = Cloudinary;
+		};
+		AFEDE9561EAB42EC008F0DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723C80AE163885C7003FB3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEDE94B1EAB42EC008F0DDC;
+			remoteInfo = Cloudinary_iOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -90,6 +107,12 @@
 		72EFFE0B17250CA600005AC9 /* NSDictionary+CLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CLUtilities.m"; sourceTree = "<group>"; };
 		72EFFE0C17250CA600005AC9 /* NSString+CLURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CLURLEncoding.h"; sourceTree = "<group>"; };
 		72EFFE0D17250CA600005AC9 /* NSString+CLURLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CLURLEncoding.m"; sourceTree = "<group>"; };
+		AFEDE94C1EAB42EC008F0DDC /* Cloudinary_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEDE94E1EAB42EC008F0DDC /* Cloudinary_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cloudinary_iOS.h; sourceTree = "<group>"; };
+		AFEDE94F1EAB42EC008F0DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEDE9541EAB42EC008F0DDC /* Cloudinary_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cloudinary_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEDE9591EAB42EC008F0DDC /* Cloudinary_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloudinary_iOSTests.m; sourceTree = "<group>"; };
+		AFEDE95B1EAB42EC008F0DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +135,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFEDE9481EAB42EC008F0DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEDE9511EAB42EC008F0DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEDE9551EAB42EC008F0DDC /* Cloudinary_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -131,6 +169,8 @@
 			children = (
 				723C80BC163885C7003FB3FB /* Cloudinary */,
 				723C80D1163885C7003FB3FB /* CloudinaryTests */,
+				AFEDE94D1EAB42EC008F0DDC /* Cloudinary_iOS */,
+				AFEDE9581EAB42EC008F0DDC /* Cloudinary_iOSTests */,
 				723C80B9163885C7003FB3FB /* Frameworks */,
 				723C80B8163885C7003FB3FB /* Products */,
 			);
@@ -142,6 +182,8 @@
 			children = (
 				723C80B7163885C7003FB3FB /* libCloudinary.a */,
 				723C80C8163885C7003FB3FB /* CloudinaryTests.xctest */,
+				AFEDE94C1EAB42EC008F0DDC /* Cloudinary_iOS.framework */,
+				AFEDE9541EAB42EC008F0DDC /* Cloudinary_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,7 +249,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AFEDE94D1EAB42EC008F0DDC /* Cloudinary_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFEDE94E1EAB42EC008F0DDC /* Cloudinary_iOS.h */,
+				AFEDE94F1EAB42EC008F0DDC /* Info.plist */,
+			);
+			path = Cloudinary_iOS;
+			sourceTree = "<group>";
+		};
+		AFEDE9581EAB42EC008F0DDC /* Cloudinary_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFEDE9591EAB42EC008F0DDC /* Cloudinary_iOSTests.m */,
+				AFEDE95B1EAB42EC008F0DDC /* Info.plist */,
+			);
+			path = Cloudinary_iOSTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFEDE9491EAB42EC008F0DDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEDE95C1EAB42EC008F0DDC /* Cloudinary_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		723C80B6163885C7003FB3FB /* Cloudinary */ = {
@@ -245,6 +316,42 @@
 			productReference = 723C80C8163885C7003FB3FB /* CloudinaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AFEDE94B1EAB42EC008F0DDC /* Cloudinary_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEDE95D1EAB42EC008F0DDC /* Build configuration list for PBXNativeTarget "Cloudinary_iOS" */;
+			buildPhases = (
+				AFEDE9471EAB42EC008F0DDC /* Sources */,
+				AFEDE9481EAB42EC008F0DDC /* Frameworks */,
+				AFEDE9491EAB42EC008F0DDC /* Headers */,
+				AFEDE94A1EAB42EC008F0DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloudinary_iOS;
+			productName = Cloudinary_iOS;
+			productReference = AFEDE94C1EAB42EC008F0DDC /* Cloudinary_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFEDE9531EAB42EC008F0DDC /* Cloudinary_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEDE9601EAB42EC008F0DDC /* Build configuration list for PBXNativeTarget "Cloudinary_iOSTests" */;
+			buildPhases = (
+				AFEDE9501EAB42EC008F0DDC /* Sources */,
+				AFEDE9511EAB42EC008F0DDC /* Frameworks */,
+				AFEDE9521EAB42EC008F0DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEDE9571EAB42EC008F0DDC /* PBXTargetDependency */,
+			);
+			name = Cloudinary_iOSTests;
+			productName = Cloudinary_iOSTests;
+			productReference = AFEDE9541EAB42EC008F0DDC /* Cloudinary_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,6 +361,18 @@
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Cloudinary Ltd";
+				TargetAttributes = {
+					AFEDE94B1EAB42EC008F0DDC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BL6PZ96S5P;
+						ProvisioningStyle = Automatic;
+					};
+					AFEDE9531EAB42EC008F0DDC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BL6PZ96S5P;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 723C80B1163885C7003FB3FB /* Build configuration list for PBXProject "Cloudinary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,6 +388,8 @@
 			targets = (
 				723C80B6163885C7003FB3FB /* Cloudinary */,
 				723C80C7163885C7003FB3FB /* CloudinaryTests */,
+				AFEDE94B1EAB42EC008F0DDC /* Cloudinary_iOS */,
+				AFEDE9531EAB42EC008F0DDC /* Cloudinary_iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +402,20 @@
 				723C8193163D3EC2003FB3FB /* logo.png in Resources */,
 				72A8B29018B88694008BAEF7 /* docx.docx in Resources */,
 				723C80D6163885C7003FB3FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEDE94A1EAB42EC008F0DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEDE9521EAB42EC008F0DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +445,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFEDE9471EAB42EC008F0DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEDE9671EAB4384008F0DDC /* CLLayer.m in Sources */,
+				AFEDE9681EAB4384008F0DDC /* CLTransformation.m in Sources */,
+				AFEDE9641EAB4384008F0DDC /* NSDictionary+CLUtilities.m in Sources */,
+				AFEDE96A1EAB4384008F0DDC /* CLEagerTransformation.m in Sources */,
+				AFEDE9661EAB4384008F0DDC /* CLCloudinary.m in Sources */,
+				AFEDE9691EAB4384008F0DDC /* CLUploader.m in Sources */,
+				AFEDE9651EAB4384008F0DDC /* NSString+CLURLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEDE9501EAB42EC008F0DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEDE95A1EAB42EC008F0DDC /* Cloudinary_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -317,6 +474,11 @@
 			isa = PBXTargetDependency;
 			target = 723C80B6163885C7003FB3FB /* Cloudinary */;
 			targetProxy = 723C80CE163885C7003FB3FB /* PBXContainerItemProxy */;
+		};
+		AFEDE9571EAB42EC008F0DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEDE94B1EAB42EC008F0DDC /* Cloudinary_iOS */;
+			targetProxy = AFEDE9561EAB42EC008F0DDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,6 +610,170 @@
 			};
 			name = Release;
 		};
+		AFEDE95E1EAB42EC008F0DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Cloudinary_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hacknocraft.Cloudinary-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFEDE95F1EAB42EC008F0DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Cloudinary_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hacknocraft.Cloudinary-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFEDE9611EAB42EC008F0DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Cloudinary_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hacknocraft.Cloudinary-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFEDE9621EAB42EC008F0DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Cloudinary_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hacknocraft.Cloudinary-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,6 +803,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AFEDE95D1EAB42EC008F0DDC /* Build configuration list for PBXNativeTarget "Cloudinary_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEDE95E1EAB42EC008F0DDC /* Debug */,
+				AFEDE95F1EAB42EC008F0DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFEDE9601EAB42EC008F0DDC /* Build configuration list for PBXNativeTarget "Cloudinary_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEDE9611EAB42EC008F0DDC /* Debug */,
+				AFEDE9621EAB42EC008F0DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

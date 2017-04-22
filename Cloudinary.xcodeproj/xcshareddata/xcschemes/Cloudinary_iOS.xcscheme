@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "723C80B6163885C7003FB3FB"
-               BuildableName = "libCloudinary.a"
-               BlueprintName = "Cloudinary"
+               BlueprintIdentifier = "AFEDE94B1EAB42EC008F0DDC"
+               BuildableName = "Cloudinary_iOS.framework"
+               BlueprintName = "Cloudinary_iOS"
                ReferencedContainer = "container:Cloudinary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AFEDE9531EAB42EC008F0DDC"
+               BuildableName = "Cloudinary_iOSTests.xctest"
+               BlueprintName = "Cloudinary_iOSTests"
+               ReferencedContainer = "container:Cloudinary.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFEDE94B1EAB42EC008F0DDC"
+            BuildableName = "Cloudinary_iOS.framework"
+            BlueprintName = "Cloudinary_iOS"
+            ReferencedContainer = "container:Cloudinary.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "723C80B6163885C7003FB3FB"
-            BuildableName = "libCloudinary.a"
-            BlueprintName = "Cloudinary"
+            BlueprintIdentifier = "AFEDE94B1EAB42EC008F0DDC"
+            BuildableName = "Cloudinary_iOS.framework"
+            BlueprintName = "Cloudinary_iOS"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "723C80B6163885C7003FB3FB"
-            BuildableName = "libCloudinary.a"
-            BlueprintName = "Cloudinary"
+            BlueprintIdentifier = "AFEDE94B1EAB42EC008F0DDC"
+            BuildableName = "Cloudinary_iOS.framework"
+            BlueprintName = "Cloudinary_iOS"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
