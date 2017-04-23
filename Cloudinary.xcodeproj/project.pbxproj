@@ -12,7 +12,7 @@
 		AFD902DE1EAD11F400A0025F /* CLCloudinary.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD902CF1EAD11F400A0025F /* CLCloudinary.m */; };
 		AFD902DF1EAD11F400A0025F /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD902D01EAD11F400A0025F /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFD902E01EAD11F400A0025F /* CLEagerTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD902D11EAD11F400A0025F /* CLEagerTransformation.m */; };
-		AFD902E11EAD11F500A0025F /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD902D21EAD11F400A0025F /* CLLayer.h */; };
+		AFD902E11EAD11F500A0025F /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD902D21EAD11F400A0025F /* CLLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFD902E21EAD11F500A0025F /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD902D31EAD11F400A0025F /* CLLayer.m */; };
 		AFD902E31EAD11F500A0025F /* Cloudinary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AFD902D41EAD11F400A0025F /* Cloudinary-Prefix.pch */; };
 		AFD902E41EAD11F500A0025F /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD902D51EAD11F400A0025F /* CLTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,11 +108,11 @@
 				AFD902E61EAD11F500A0025F /* CLUploader.h in Headers */,
 				AFD902DD1EAD11F400A0025F /* CLCloudinary.h in Headers */,
 				AFD902DF1EAD11F400A0025F /* CLEagerTransformation.h in Headers */,
+				AFD902E11EAD11F500A0025F /* CLLayer.h in Headers */,
 				AFD902E41EAD11F500A0025F /* CLTransformation.h in Headers */,
 				AFD902C81EAD115100A0025F /* Cloudinary.h in Headers */,
 				AFD902E81EAD11F500A0025F /* NSDictionary+CLUtilities.h in Headers */,
 				AFD902EA1EAD11F500A0025F /* NSString+CLURLEncoding.h in Headers */,
-				AFD902E11EAD11F500A0025F /* CLLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
